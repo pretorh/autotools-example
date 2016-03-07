@@ -1,4 +1,5 @@
 bin_PROGRAMS = dummy
+EXTRA_DIST = $(TESTS)
 
 TESTS = tests/xfail.sh \
 	tests/pass.sh \
