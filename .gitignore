@@ -1,0 +1,6 @@
+# temp/backup files
+*.swp
+
+# binary, object files
+src/*.o
+dummy
