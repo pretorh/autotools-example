@@ -1,12 +1,21 @@
 # temp/backup files
 *.swp
 
-# binary, object files
+# binary, object files, distribution files
 src/*.o
 dummy
+*.tar.*
 
 # autotools
 autom4te.cache/
+build-aux/
 configure
-src/config.h.in
+Makefile
+Makefile.in
+src/config.h*
+aclocal.m4
 config.log
+config.status
+src/.deps/
+src/stamp-h1
+src/.dirstamp
