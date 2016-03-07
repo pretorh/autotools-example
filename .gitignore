@@ -19,3 +19,8 @@ config.status
 src/.deps/
 src/stamp-h1
 src/.dirstamp
+
+# tests
+tests/*.log
+tests/*.trs
+test-suite.log
